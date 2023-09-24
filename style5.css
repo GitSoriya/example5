@@ -1,0 +1,33 @@
+table{
+    width: 50%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid gray;
+    padding: 10px;
+}
+th{
+    text-align: left;
+    background-color: aqua;
+}
+tr:nth-child(even){
+    background-color: rgb(209, 204, 204);
+}
+tr:hover{
+    background-color: rgb(152, 152, 248);
+}
+h1{
+    text-align: center;
+}
+.table-container{
+    display: flex;
+    justify-content: center;
+}
+/* :nth-child(even) 
+   :nth-child(odd)
+ 
+note: - even: ដាក់សម្រាប់ប្រអប់(table: row) ដែរនៅ index លេខគូ
+      - odd : ដាក់សម្រាប់ប្រអប់(table: row) ដែរនៅ index លេខសេស
+
+time: 1:02:00
+*/
